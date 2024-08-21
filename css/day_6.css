@@ -1,0 +1,12 @@
+.para1{
+    background-color: red;
+    background-image: url(https://ik.imagekit.io/cluqqmqj7/mern/modern-automobile-classic-technology-wheel-traffic_665346-119.avif);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.25;
+}
+.para2{
+    width: 900px;
+    height: 50px;
+}

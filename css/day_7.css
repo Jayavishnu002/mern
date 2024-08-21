@@ -1,0 +1,20 @@
+.para1{
+
+}
+.para2{
+     
+     width: 150px;
+     height: 400px;
+     border: solid;
+     border-color: red;
+     margin:30px;
+     padding: 25px;
+     border-width: 5px;
+     
+
+}
+.btn{
+    border-radius: 10px;
+
+
+}

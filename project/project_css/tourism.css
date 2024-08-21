@@ -1,0 +1,21 @@
+.head1{
+ font-family: "Poppins", sans-serif;
+ text-align: center;
+ font-weight: 500;
+}
+
+.para1{
+    font-family:"Poppins", sans-serif; 
+    font-weight: 400;
+    text-align: center;
+
+}
+.btn1{
+    font-family:"Poppins", sans-serif;
+    border: solid;
+    border-radius: 100px;
+    border-color:black;
+    background-color:#08C1EB;
+    border-width: 1px;
+    color: white;
+}
