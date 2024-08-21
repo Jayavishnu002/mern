@@ -2,10 +2,13 @@
 .set1{
     font-family: "Roboto", sans-serif;
     background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png);
-    height: 900px;
+    height: 100rem;
+    width: 23rem;
     background-size: contain;
     background-repeat: no-repeat;
    color: white;
+   border: 1px;
+   border-color: black;
    margin-right: 71rem;
    padding:2px; 
 }
