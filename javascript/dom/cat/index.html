@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-black text-[white]">
+    <div class="2xl:container mx-auto">
+        <div class="w-[90%] mx-auto grid grid-cols-1">
+            <div>
+                <div class="h-screen flex flex-col justify-center items-center">
+                    <img src="https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png" alt="bulb img" class="h-[200px]" id="bulbimg">
+                
+                    <img src="https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png" alt="cat img" class="h-[400px]" id="catimg">
+                
+                    <p id="para" class="text-center">Switched On</p>
+                
+                    <div class="space-x-2">
+                        <button id="onbtn" class="border border-[white] rounded-xl p-2">ON</button>
+                    
+                    <button id="offbtn" class="border border-[white] rounded-xl p-2">OFF</button>
+                    </div>
+                   </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <script>
+        const bulbimage = document.getElementById("bulbimg");
+        const catimage = document.getElementById("catimg");
+        const paraElement = document.getElementById("para");
+        const onbutton = document.getElementById("onbtn");
+        const offbutton = document.getElementById("offbtn");
+
+        onbutton.addEventListener("click",function()
+        {
+            console.log("onbtnclicked")
+            catimage.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png"
+            bulbimage.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png"
+            paraElement.textContent ="Switched On"
+       
+
+        }
+        )
+
+        offbutton.addEventListener("click",function()
+        {
+            console.log("offbtnclicked")
+            catimage.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-eyes-img.png"
+            bulbimage.src = "https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-off-img.png"
+            paraElement.textContent = "Switched Off"
+
+        }
+        )        
+        
+    </script>
+    
+</body>
+</html>

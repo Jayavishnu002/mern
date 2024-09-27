@@ -3,10 +3,10 @@
 
 <head>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./Fonts/WEB/css/satoshi.css">
+    <link rel="stylesheet" href="../Fonts/WEB/css/satoshi.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>portfolio resume</title>
 </head>
 
 <body>
@@ -31,86 +31,57 @@
             </div>
 
         </div>
-        <!-- about section -->
 
-        <div class="w-[90%] md:w-[60%] mx-auto grid grid-cols-1  my-2 ">
-            <div class="py-4">
-                <p
-                    class="font-[Satoshi-Regular] text-[25px] md:text-[50px] font-[500] leading-[34px] md:leading-[69px]">
-                    Hi i'm spikey sanju, designer
-                    and engineer, founder of thisux design ,where innovation</p>
-
+        <!-- nav bar -->
+        <div class="hidden md:block font-[Satoshi-Regular] text-[17px] font-[500] leading-[24px]">
+            <div class=" w-[90%]  md:w-[60%] mx-auto grid grid-cols-1 py-4">
+                <div class="shadow-2xl bg-white rounded-full py-4 px-2 ">
+                    <ul class="flex justify-around">
+                        <li><a href="../portfolio.html">Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li><a href="../pages/project.html">Project</a></li>
+                        <li><a href="../pages/resume.html">Resume</a></li>
+                        <li><a href="../pages/ama.html">Ask Me Anything</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <!-- details section -->
+        <!-- content -->
+        <div class="w-[90%] md:w-[60%] mx-auto grid grid-cols-1  gap-4 py-4">
 
-        <div class="w-[90%] md:w-[60%] mx-auto grid grid-cols-1  ">
-            <div class="space-y-5">
-                <div>
-                    <a href="./pages/about.html">
-                        <div class="flex justify-between hover:-rotate-1 hover:underline">
-                            <p class="flex font-[Satoshi-Regular] text-[24px] font-[400] leading-[32px]  ">About</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-move-right">
-                                <path d="M18 8L22 12L18 16" />
-                                <path d="M2 12H22" />
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="./pages/project.html">
-                        <div class="flex justify-between hover:-rotate-1 hover:underline">
-                            <p class="flex font-[Satoshi-Regular] text-[24px] font-[400] leading-[32px] ">Project</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-move-right">
-                                <path d="M18 8L22 12L18 16" />
-                                <path d="M2 12H22" />
-                            </svg>
-                        </div>
-                    </a>
-                </div>
+            <!-- card -->
+            <div class="space-y-4">
+                <img src="https://img.freepik.com/free-vector/realistic-credit-card-design_23-2149126090.jpg"
+                    alt="cardimg" >
 
+                <p class="font-[Satoshi-Regular] text-[18px] font-[500] leading-[24px]">meet spikey sanju designer engineer and inspector</p>
 
-                <div>
-                    <a href="./pages/project.html">
-                        <div class="flex justify-between hover:-rotate-1 hover:underline">
-                            <p class="flex font-[Satoshi-Regular] text-[24px] font-[400] leading-[32px]">Resume</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-move-right">
-                                <path d="M18 8L22 12L18 16" />
-                                <path d="M2 12H22" />
-                            </svg>
-                        </div>
-                    </a>
-
-                </div>
-                <div>
-                    <a href="./pages/ama.html">
-                        <div class="flex justify-between hover:-rotate-1 hover:underline">
-                            <p class="flex font-[Satoshi-Regular] text-[24px] font-[400] leading-[32px]">Ask Me Anything
-                            </p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-move-right">
-                                <path d="M18 8L22 12L18 16" />
-                                <path d="M2 12H22" />
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-
-
-
+                <div class="flex justify-between flex-wrap gap-3 font-[Satoshi-Regular] text-[16px] font-[600] leading-[24px] ">
+                    <button class="flex bg-black text-[white] py-3 px-3 rounded-2xl font-[Satoshi-Regular] text-[16px] font-[600] leading-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-pen"><path d="M11.5 15H7a4 4 0 0 0-4 4v2"/><path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><circle cx="10" cy="7" r="4"/></svg>Resume Link</button>                </div>
             </div>
 
+             
 
+             
 
+        <!-- nav bar -->
+        <div class="md:hidden w-[100%]  fixed bottom-0 font-[Satoshi-Regular] text-[17px] font-[500] leading-[24px]">
+            <div class=" w-[90%] md:w-[60%] mx-auto grid grid-cols-1 py-4">
+                <div class="shadow-2xl  bg-white rounded-full py-4 px-2">
+                    <ul class="flex justify-around">
+                        <li><a href="../portfolio.html">Home</a></li>
+                        <li><a href="../pages/about.html">About</a></li>
+                        <li><a href="../pages/project.html">Project</a></li>
+                        <li><a href="../pages/resume.html">Resume</a></li>
+                        <li><a href="../pages/ama.html">Ask Me Anything</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
+
+
         <!-- footer section -->
 
         <div class="w-[90%] md:w-[60%] mx-auto grid grid-cols-1 my-4 ">
@@ -165,7 +136,7 @@
 
 
 
-    </div>
+
 
 
 
